@@ -1,15 +1,15 @@
-@media (max-width: 1279px){
-	.section-header {height: 800px;}
-	.padding {padding: 150px 10px;}
-	.title {font-size: 80px;}
+@media (max-width: 1450px){
+	.section-header {height: 700px;}
+	.padding {padding: 130px 10px;}
 }
 
+@media (max-width: 1279px){
+	.title {font-size: 80px;}
+}
 @media (max-width: 767px){
-	.section-header {height: 665px;}
-	.padding {padding: 150px 10px;}
+	.padding {padding: 110px 10px;}
 }
 @media (max-width: 659px){
-	.padding {padding: 10px 10px;}
 	.pointer {bottom: 1%;   left: 45%;}
 	.title {text-align: center;}
 	.header-text {font-size: 22px;}
@@ -17,6 +17,10 @@
 	.section-sign-up img {max-width: 100%; height: auto;}
 	.input-group-btn .btn {font-size: 16px !important;}
 
-@media (max-width: 545px){
+@media (max-width: 626px){
+	.padding {padding: 10px 10px;}
+}
+
+@media (max-width: 561px){
 	footer {height: 80px;}
 }
