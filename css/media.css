@@ -9,7 +9,14 @@
 	.padding {padding: 150px 10px;}
 }
 @media (max-width: 659px){
-	.padding {padding: 50px 10px;}
+	.padding {padding: 10px 10px;}
+	.pointer {bottom: 1%;   left: 45%;}
 	.title {text-align: center;}
 	.header-text {font-size: 22px;}
+	.section-padding {padding: 50px 0px;}
+	.section-sign-up img {max-width: 100%; height: auto;}
+	.input-group-btn .btn {font-size: 16px !important;}
+
+@media (max-width: 545px){
+	footer {height: 80px;}
 }
