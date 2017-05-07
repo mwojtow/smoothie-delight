@@ -1,18 +1,3 @@
-body {
-	font-family: 'Titillium Web', sans-serif;
-	color: white;
-}
-h1 {
-	font-size: 56px;
-    font-weight: 600;
-    letter-spacing: 4px;
-}
-
-h3 {    
-	font-size: 24px;
-    font-weight: 900;
-}
-
 .section-padding {padding: 100px 0px;}
 .padding-small {padding: 40px 0px;}
 .logo-text {font-family: "Pacifico";}
@@ -35,6 +20,7 @@ h3 {
 }
 .title {
     font: 100px "Pacifico", cursive;
+    color: white;
 }
 .padding {padding: 250px 10px;}
 
@@ -48,8 +34,19 @@ h3 {
 /** SECTION WHY SMOOTHIE */
 .section-why {background-color: #17c2a4; position: relative;}
 
+.why-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+.why-text span {	font-family: "Pacifico";}
+
 .why-text p {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 26px;
+    color: white;
     padding: 0 3px 50px 0;
 }
 .hr-why {
@@ -59,19 +56,30 @@ h3 {
     box-shadow: 0 0 4px 2px #14a58c;
 }
 .icon-text h4 {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 26px;
     font-weight: 600;
+    color: white;
     margin-top: 60px;
 }
 .icon-text p {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     line-height: 25px;
+    color: white;
     margin-top: 20px;
 }
 
 /** SECTION REVIEWS */
 .section-reviews {background-color: #ad70d8; position: relative;}
 
+.reviews-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
 .hr-reviews {
     width: 100px;
     border: 0;
@@ -79,25 +87,34 @@ h3 {
     box-shadow: 0 0 2px 2px #9360BA;
 }
 .reviews-text p {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 22px;
     font-weight: 600;
+    color: white;
     padding: 0 0 80px 0;
 }
 .reviews-text-italic {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     font-style: italic;
     text-align: left;
     line-height: 30px;
+    color: white;
     margin-left: 100px;
     margin-right: 20px;
 }
 .reviews h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
     margin-left: 125px;
     margin-right: 10px;
     margin-bottom: 2px;
     text-align: left;
 }
 .reviews h5 {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #facd96;
@@ -113,13 +130,19 @@ h3 {
 .col-margin {margin-bottom: 50px;}
 
 /** SECTION SIGN UP */
-.section-sign-up {
-	background-color: #ffdd99;
-	color: black; 
-	position: relative;}
+.section-sign-up {background-color: #ffdd99; position: relative;}
 
-.sign-up-text p {font-size: 18px;}
-
+.sign-up-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+}
+.sign-up-text p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: black;
+}
 .input-group-lg .form-control{
 	height: 60px !important;
     width: 70% !important;
@@ -148,6 +171,7 @@ h3 {
 footer {
 	background-color: #17c2a4;
 	height: 40px;
+	color: white;
 }
 footer span {	
 	padding: 0 10px;
@@ -161,4 +185,7 @@ footer a {
 	padding: 0 10px;
 	border-right: 1px solid #fff;
 }
-footer a:link, a:visited {text-decoration: none;}
+footer a:link, a:visited {
+	text-decoration: none;
+    cursor: auto;
+}
